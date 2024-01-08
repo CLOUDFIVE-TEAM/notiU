@@ -23,9 +23,28 @@
 영문 명령어 사용 가능 및 영문 결과 제공를 제공하여 외국인 학생들의 정보 불균형을 해소할 수 있습니다. <br><br>
 
 
-## ⚙️ 아키텍쳐
+## ⚙️ Architecture
 <div align="center"><img src="https://github.com/CLOUDFIVE-TEAM/notiU/assets/61011209/06cf3ec9-9f86-4d81-bcad-a3d72e8c3b65" width="900" align="center"/></div>
+
+<br>
+
+## 📁 Folder Structure
+```
+.
+├── README.md
+└── lambda
+    ├── called-at-time-and-saved-to-DB.py
+    ├── cloudfive-crawling-translator.py
+    ├── cloudfive-create-reminder.py
+    ├── cloudfive-get-deadline-from-gpt.py
+    ├── cloudfive-img-to-text-p39.py
+    ├── cloudfive-send-translated-results-to-admin.py
+    ├── cloudfive-translator-by-gpt.py
+    ├── send-subscribe-result-lambda.py
+    └── subscribe-bot-app.py
+```
 
 <!-- ![architecture](https://github.com/CLOUDFIVE-TEAM/notiU/assets/61011209/06cf3ec9-9f86-4d81-bcad-a3d72e8c3b65) -->
 <!-- ![logo](https://github.com/CLOUDFIVE-TEAM/notiU/assets/61011209/3a33ca74-27ad-4a4a-861b-21d78f0d771b) -->
 <!-- ![cloudfive_info](https://github.com/CLOUDFIVE-TEAM/notiU/assets/61011209/c8314e05-ff68-4e37-a41a-d35ce36cf1fa)-->
+
